@@ -1,0 +1,12 @@
+# .vercelignore
+.env.local
+.env.*.local
+node_modules
+.git
+.gitignore
+README.md
+SETUP_GUIDE.md
+DEPLOYMENT.md
+CONTENT_GUIDE.md
+COMPLIANCE_GUIDE.md
+.next

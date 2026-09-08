@@ -1,0 +1,37 @@
+# Vercel Deployment Configuration
+
+## Environment Setup
+
+Set these environment variables in Vercel:
+
+```
+NEXT_PUBLIC_SITE_NAME=SSV LIFECARE
+NEXT_PUBLIC_WHATSAPP_NUMBER=+919876543210
+NEXT_PUBLIC_BUSINESS_EMAIL=business@ssvlifeccare.com
+NEXT_PUBLIC_SUPPORT_EMAIL=support@ssvlifeccare.com
+NEXT_PUBLIC_PHONE=+91-XXXX-XXXX-XX
+```
+
+## Build Settings
+
+- **Framework**: Next.js
+- **Build Command**: `npm run build`
+- **Output Directory**: `.next`
+- **Install Command**: `npm ci`
+
+## Domain Configuration
+
+1. Go to Project Settings → Domains
+2. Add your domain (e.g., ssvlifeccare.com)
+3. Follow DNS configuration instructions
+4. Wait for SSL certificate generation
+
+## Auto-Deploy
+
+Every push to main branch automatically deploys.
+
+## Monitoring
+
+- Check deployments: https://vercel.com/dashboard
+- View logs: Vercel Dashboard → Project → Deployments
+- Monitor performance: Vercel Analytics
